@@ -1,5 +1,5 @@
 # API SMK Online Service
-Access Login / Register
+<b>Access Login / Register</b>
 <br />
 API : https://alicestech.com/sos/api/access/logreg
 <br />
@@ -8,7 +8,7 @@ method : POST
 parameter : name, email, photo, token
 <br />
 <br />
-Cek Data User
+<b>Cek Data User</b>
 <br />
 API : https://alicestech.com/sos/api/user
 <br />
