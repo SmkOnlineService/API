@@ -35,11 +35,13 @@ class Access extends RestController
                     $this->response([
                         'status' => true,
                         'message' => 'success update user',
+                        'result' => null
                     ],200);
                 }else{
                     $this->response([
                         'status' => false,
                         'message' => 'failed update user',
+                        'result' => null
                     ],404);
                 }
             }else{
@@ -49,11 +51,13 @@ class Access extends RestController
                     $this->response([
                         'status' => true,
                         'message' => 'success create user',
+                        'result' => null
                     ],200);
                 }else{
                     $this->response([
                         'status' => false,
                         'message' => 'failed create user',
+                        'result' => null
                     ],404);
                 }
             }
@@ -61,6 +65,7 @@ class Access extends RestController
             $this->response([
                 'status' => false,
                 'message' => 'empty parameter',
+                'result' => null
             ],404);
         }
     }
